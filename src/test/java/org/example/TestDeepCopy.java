@@ -15,7 +15,7 @@ public class TestDeepCopy {
     private Car carCopy;
 
     @Before
-    public void setUp() {
+    public void setUp() throws Exception {
         person = new Person(1, "John", 25);
         vehicle = new Vehicle("Toyota", 2010, 10000.0, 1, person);
         car = new Car("Toyota", 2010, 10000.0, 1, person, 5, false, true);
